@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: oblique;
+}
+
+h2 {
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sample_div {
+    color: white;
+    height: 50vh;
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*_zqJUXJaDneHRrXeXtR5vQ.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fake-link {
+    color: purple;
+}
+
+.fake-link:hover {
+    color: white;
+}
+
+.fake-link:active {
+    color: red;
+}

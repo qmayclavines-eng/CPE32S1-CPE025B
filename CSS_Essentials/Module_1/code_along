@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: oblique;
+}
+
+h2 {
+    font-weight: 600;
+    font-style: normal;
+}

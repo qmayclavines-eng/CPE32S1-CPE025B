@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: oblique;
+}
+
+h2 {
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sample_div {
+    color: white;
+    height: 50vh;
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*_zqJUXJaDneHRrXeXtR5vQ.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fake-link {
+    color: purple;
+}
+
+.fake-link:hover {
+    color: white;
+}
+
+.fake-link:active {
+    color: red;
+}
+
+.box-model {
+    text-align: center;
+    border: .1em solid;
+}
+
+.margin, .border, .padding, .content {
+    padding: 1em;
+    margin-bottom: 4px;
+}
+
+.margin {
+    background-color: #ff0000;
+    margin: auto auto auto auto;
+}
+.border {
+    background-color: orange;
+    margin: 0.5em auto auto auto;
+}
+.padding {
+    background-color: yellow;
+    margin: 0.5em auto auto auto;
+}
+.content {
+    background-color: green;
+    margin: 0.5em auto auto auto;
+}

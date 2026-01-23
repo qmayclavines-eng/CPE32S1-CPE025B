@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Harbor Light Community Center</title>
+</head>
+<body>
+    
+    <font face="Arial, sans-serif">
+    <div>
+        <center><img src="https://edube.org/uploads/media/default/0001/04/logo.jpg" alt="Center Logo">
+        </center>
+        <center>Welcome to Harbor Light Community Center
+        </center>
+    </div>
+    <div>
+                 <nav>
+            <ul>
+               <li><a href="\home">Home</a></li>
+               <li><a href="\about">About</a></li>
+               <li><a href="\services">Services</a></li>
+               <li><a href="\contact">Contact</a></li>
+            </ul>
+         </nav>
+    </div>
+    <div class="banner">
+        <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPfiH0pa9fIXRAqdOdBDT-oemKWbtmreVPOg&sg" alt="Decorative Banner"></center>
+    </div>
+    <div>
+        <h1>About Us</h1>
+        <p>The Harbor Light Community Center has been at the heart of our community for over 30 years, offering a wide range of services and programs designed to support and enrich the lives of our residents.</p>
+        <p><img src="https://edube.org/uploads/media/default/0001/04/community-center.jpg" hspace="10" vspace="10"></p>
+    </div>
+    <div>
+        <h1>Our Services</h1>
+        <p>From educational workshops and sports leagues to wellness programs and art classes, our services are tailored to meet the diverse needs of our community members.</p>
+    </div>
+    <div>
+        <h1>Join Our Events</h1>
+        <p>Our community center is a hub of activity, hosting events throughout the year. Don't miss our annual summer festival for fun, food, and festivities for all ages.</p>
+    <br>
+    Annual Summer Festival:
+    Starts: July 20, 2050
+
+
+    </div>
+    <div>
+       <p> Have questions or want to get involved? Use our contacts!! </p>
+       <p class="tel">6767-676-6767</p>
+              <a href="info@hlcso.co.ukm"
+      itemprop="email">info@hlcso.co.uk
+    </div>
+
+   
+    </font>
+</body>
+</html>

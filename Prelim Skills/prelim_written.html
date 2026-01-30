@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Model Of Transportation Survey</title>
+    <style>
+    body{
+        background-color: blanchedalmond;
+        font-family: 'Courier New', Courier, monospace;
+    }     
+
+    .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form{
+        display: block;
+      margin-top: 15px;
+      font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items:first baseline       
+    }
+
+    select{
+        
+        display: flex;
+        flex-direction: column;
+        align-items:first baseline  
+
+    }
+
+    div{
+        padding: 2%;
+
+    }
+
+    </style>
+</head>
+<body>
+    <header class="heading">
+        <h1 id="title">A Quick Survey of Mode of Transportation</h1>
+        <p id="description">A simple survey of which mode of transportation is more preferred to commuters in the Philippines.</p>
+    </header> 
+<form id="survey-form">
+    <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your full name"
+        required
+        >
+
+        <label id="Age-label" for="Age">Age</label>
+        <input
+          type="Number"
+          id="Age"
+          name="Age"
+          placeholder="Age"
+          min="20"
+          max="80"
+          required
+          >
+
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email address"
+        required
+        >
+
+        <label id="number-label" for="Number">Contact No.</label>
+      <input
+        type="Number"
+        id="Number"
+        name="Number"
+        placeholder="Enter your Contact No."
+        required
+        >
+
+        
+        <div><label for="dropdown">How often do you commute in a week?</label>
+        <select id="dropdown" name="week" required>
+          <option value="">Select an option</option>
+          <option value="1-2 days">1-2 days</option>
+          <option value="3-4 Days">3-4 days</option>
+          <option value="5-6 Days">5-6 days</option>
+          <option value="7 Days">7 Days</option>
+        </select>
+        </div>
+
+        <div><label for="dropdown">Based on your experience, which mode of transportation do you prefer?</label>
+            <select id="dropdown" name="Vehicle" required>
+              <option value="">Select an option</option>
+              <option value="PUV">PUV</option>
+              <option value="Jeepneys">Jeepneys</option>
+              <option value="Tricycle">Tricycle</option>
+              <option value="E-Jeeps">E-Jeeps</option>
+              <option value="Bus">Bus</option>
+            </select>
+            </div>
+
+            <div><label for="dropdown">From the chosen transport vehicle you have chosen, why do you prefer taking this vehicle?</label>
+                <select id="dropdown" name="Vehicle" required>
+                  <option value="">Select an option</option>
+                  <option value="Option 1">It's more faster</option>
+                  <option value="Option 2">This vehicle is more comfortable</option>
+                
+                </select>
+                </div>
+
+                <p>Insights</p>
+                <textarea>type here if you have any insights</textarea>
+
+                
+
+</form>
+</body>
+
+</html>

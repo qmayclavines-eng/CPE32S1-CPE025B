@@ -1,0 +1,23 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    letter-spacing: .0428em;
+}
+
+.navbar-nav {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+/* for debug */
+.bordered {
+    border: 1px solid black;
+    border-radius: .6em;
+}
+
+#button-submit {
+    margin-top: 1em;
+}

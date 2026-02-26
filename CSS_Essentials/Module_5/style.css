@@ -1,0 +1,147 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: grid;
+    grid-column: 1fr 1fr;
+    text-align: center;
+    font-weight: normal;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.title {
+    font-weight: 900;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 .5em;
+    transition: color 0.3s;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    gap: 1em;
+}
+
+.product-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.cta-button {
+    padding: .6em 2em;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: deeppink;
+    transform: scale(1.1);
+}
+
+.features-section {
+    max-width: 700px;
+    margin: 2em auto;
+    padding: 0 1.5em;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-item {
+    padding: .5em .8em;
+    border-left: 3px solid hotpink;
+    margin-bottom: .7em;
+    opacity: 0;
+    animation: slideIn 0.6s ease forwards;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-40px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.feature-item:nth-child(1) { animation-delay: 0.2s; }
+.feature-item:nth-child(2) { animation-delay: 0.4s; }
+.feature-item:nth-child(3) { animation-delay: 0.6s; }
+.feature-item:nth-child(4) { animation-delay: 0.8s; }
+.feature-item:nth-child(5) { animation-delay: 1.0s; }
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2em auto;
+}
+
+.project-card {
+    margin: .8em 1em;
+    padding: .6em;
+    box-shadow: 0 1em .4em pink;
+    border: .1em solid black;
+    border-radius: 1em;
+    text-align: center;
+    width: 14em;
+    transition: transform 0.04s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.04);
+}
+
+@keyframes staggered {
+    from { opacity: 0; transform: translateY(-1em); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#unique { animation: staggered .4s ease-in-out .4s backwards; }
+#zild   { animation: staggered .4s ease-in-out .3s backwards; }
+#blaster { animation: staggered .4s ease-in-out .2s backwards; }
+#badjao { animation: staggered .4s ease-in-out .1s backwards; }
+
+img.ivos-members {
+    max-width: 14em;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: .4em;
+}
+
+h2 { margin-bottom: 0; }
+
+p {
+    margin-top: .2em;
+    font-size: .8em;
+}
+
+footer { text-align: center; }
+
+@media (max-width: 600px) {
+    nav { flex-direction: column; }
+}

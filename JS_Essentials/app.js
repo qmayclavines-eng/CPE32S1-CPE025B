@@ -28,17 +28,17 @@ teamDirectory.push({
 
 teamDirectory[1].available = true;
 
-console.log("--- First Team Member ---");
+console.log("First Team Member");
 console.log("Name:", teamDirectory[0].name);
 console.log("First Skill:", teamDirectory[0].skills[0]);
 
 const lastIndex = teamDirectory.length - 1;
-console.log("\n--- Last Team Member ---");
+console.log("\nLast Team Member");
 console.log("Name:", teamDirectory[lastIndex].name);
 console.log("Total Skills:", teamDirectory[lastIndex].skills.length);
 
-console.log("\n--- Directory Summary ---");
+console.log("\nDirectory Summary");
 console.log("Total People in Directory:", teamDirectory.length);
 
-console.log("\n--- Full Team Directory ---");
+console.log("\nFull Team Directory");
 console.log(teamDirectory);
